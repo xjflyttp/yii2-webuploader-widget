@@ -15,5 +15,6 @@ class WebuploaderAsset extends AssetBundle {
     public $basePath = '@webroot/assets';
     public $css = ['webuploader.css'];
     public $js = ['webuploader.js'];
+    public $depends = ['yii\web\JqueryAsset'];
 
 }
